@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#9733; &nbsp; IOES</title>
+    <link rel="stylesheet" type="text/css" href="STYLES/style.css">
+    <script src="SCRIPTS/main.js"></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <header>
+            <img src="IMAGES/IOES_LOGO.png" alt="">
+            <h2>INDIAN ONLINE</h2>
+            <h2>EXAMINATION SERVICE</h2>
+            <h3>All India Online Examination Service Board</h3>
+        </header>
+    <div class="flexContainer">
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="file:///D:/WEBSITE/index.html">Home</a></li>
+                    <li><a href="file:///D:/WEBSITE/monthlySchedule.html">Monthly Schedule</a></li>
+                    <li><a href="file:///D:/WEBSITE/syllabus.html">Syllabus</a></li>
+                    <li><a id="current" href="file:///D:/WEBSITE/registration.html">Registration Page</a></li>
+                </ul> 
+            </nav>
+        </aside>
+        <section>
+            
+            <fieldset class="form">
+            <legend><h1><span>STUDE</span>NT REGISTRATION</h1></legend>
+            <div class="formContainer">
+            <form action="file:///D:/WEBSITE/syllabus.html" name='registration' onsubmit="return check()">
+                <label for="fname">FIRST NAME:</label><br>
+                <input type="text" id="fname" name="fname"><p class="error" id="errorFname"></p><br>
+                <hr>
+                <label for="lname">LAST NAME:</label><br>
+                <input type="text" id="lname" name="lname"><p class="error" id="errorLname"></p><br>
+                <hr>
+                <label for="dob">D.O.B:</label><br>
+                <input type="date" id="dob" name="dt" min="1980-01-01" max="1998-12-31"><p class="error" id="errorDate"></p><br>
+                <hr>
+                <label for="email">EMAIL:</label><br>
+                <input type="email" id="email" name="email"><p class="error" id="errorEmail"></p>
+                <br><br>
+                <input class="subMit" id="submitBtn" type="submit" value="Submit">
+              </form>
+            </div>
+            </fieldset>
+
+        </section>
+    </div>
+    <footer>
+        <p class="copyright">&COPY; 1998 Indian Online Examination Service | All Rights Reserved</p>
+    </footer>
+    </div>
+</body>
+</html>

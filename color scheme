@@ -1,0 +1,26 @@
+#F5D0ED - 
+#D4C6BD - HEADER
+#D6B7B5
+#3D5361 - TEXT
+
+ <div class="midSection">
+            fffffffffffffffffffffffffffffffffff
+            <section>
+                
+            </section>
+        </div>
+
+.midSection{
+    width:100%;
+    height: auto;
+    background-color:#3D5361;
+    position: absolute;
+}
+
+section{
+    float: right;
+    width:85%;
+    height:50vh;
+    background-color: #F5D0ED;
+}
+
